@@ -2,7 +2,7 @@ from pyswip import Prolog
 
 prolog = Prolog()
 
-prolog.consult("SimpsonsKB.pl")
+prolog.consult(r"C:\Users\Tntad\OneDrive\Desktop\Documents\LLMLogics\LLMLogics\task3\SimpsonsKB.pl")
 
 while True:
     query = input("What would you like to ask Prolog?")
