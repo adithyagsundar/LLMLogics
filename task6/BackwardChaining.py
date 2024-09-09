@@ -23,7 +23,7 @@ def backchain_to_goal_tree(rules, hypothesis):
 from data import zookeeper_rules
 
 if __name__ == "__main__":
-    hypothesis = 'blank is a mammal'
+    hypothesis = 'joe is a mammal'
     goal_tree = backchain_to_goal_tree(zookeeper_rules, hypothesis)
     print("Goal Tree for the Hypothesis '{}':".format(hypothesis))
     print(goal_tree)
